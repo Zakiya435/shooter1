@@ -4,7 +4,7 @@ class Tanker {
       isStatic: true
       
      }
-     this.image = loadImage("assets/shooter.png");
+     this.image = loadImage("shooter.png");
      this.body = Bodies.rectangle(x,y,width,height,options)
      World.add(world, this.body);
 
